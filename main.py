@@ -1,3 +1,9 @@
+"""Write the required entry.txt into the make.fun output directory.
+
+The output directory is ``$MAKEFUN_OUTPUT_DIR`` when set and non-empty,
+otherwise the literal ``/output``. Standard library only.
+"""
+
 import os
 
 TEXT = (
